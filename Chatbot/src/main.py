@@ -1,6 +1,6 @@
 
 from auth import Auth
-from ai import ai
+from ai import AI_chatbot
 from general import general
 from education import educate
 from entertainment import entertain
@@ -50,4 +50,5 @@ def main():
             print("Invalid option, please try again.")
 
 if __name__ == "__main__":
+
     main()
