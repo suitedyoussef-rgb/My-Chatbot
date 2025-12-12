@@ -1,0 +1,5 @@
+You will need:
+
+google-generativeai
+requests
+numexpr
