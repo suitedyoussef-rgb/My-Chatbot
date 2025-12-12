@@ -1,4 +1,4 @@
-def ai():
+def AI_chatbot():
     import google.generativeai as genai
     import os
     
@@ -25,4 +25,5 @@ def ai():
     except Exception as e:
         print(f"An error occurred with the AI model. Please check your API key and configuration.")
         print(f"Error details: {e}")
+
 #========================================================================|
