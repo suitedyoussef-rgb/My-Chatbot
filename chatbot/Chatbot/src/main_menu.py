@@ -1,0 +1,15 @@
+def main_menu(name):
+    print(f"How can i help you today {name} ?")
+    print("I can do:")
+    print("")
+    print("1-AI Chatbot")
+    print("2-weather")
+    print("3-Islamic mode")
+    print("4-Entertainment Mode")
+    print("5-Education")
+    print("6-General")
+    print("7-Math")
+    print("")
+    print("Press X to log out")
+    choice1 = input("Enter your choice: ")
+    return choice1
